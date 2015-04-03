@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -53,6 +53,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -61,6 +62,31 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="100" name="NonViaHole" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="PlacementGuide" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="TopSilkscreen" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="not_populated" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="BottomSilkscreen" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -100,9 +126,11 @@
 <wire x1="46" y1="19" x2="46" y2="4" width="0" layer="46"/>
 </plain>
 <libraries>
-<library name="FLYFISH">
+<library name="RasPi-BplusHAT">
+<description>Generated from &lt;b&gt;RasPi-BplusHAT.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
 <packages>
-<package name="PIN_20X2">
+<package name="RASPI_HEADER">
 <wire x1="-24.765" y1="2.54" x2="-23.495" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="-23.495" y1="2.54" x2="-22.86" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="-22.86" y1="1.905" x2="-22.225" y2="2.54" width="0.1524" layer="21"/>
@@ -225,48 +253,6 @@
 <wire x1="25.4" y1="1.905" x2="25.4" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="24.765" y1="2.54" x2="25.4" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="25.4" y1="-1.905" x2="24.765" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-24.13" y="-1.27" drill="1.016" shape="square"/>
-<pad name="3" x="-21.59" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="5" x="-19.05" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="7" x="-16.51" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="9" x="-13.97" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="11" x="-11.43" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="2" x="-24.13" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="4" x="-21.59" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="6" x="-19.05" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="8" x="-16.51" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="10" x="-13.97" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="12" x="-11.43" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="13" x="-8.89" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="14" x="-8.89" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="15" x="-6.35" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="17" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="19" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="21" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="23" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="25" x="6.35" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="16" x="-6.35" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="18" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="20" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="22" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="24" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="26" x="6.35" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="27" x="8.89" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="28" x="8.89" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="29" x="11.43" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="31" x="13.97" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="33" x="16.51" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="35" x="19.05" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="37" x="21.59" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="39" x="24.13" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="30" x="11.43" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="32" x="13.97" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="34" x="16.51" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="36" x="19.05" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="38" x="21.59" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="40" x="24.13" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-24.638" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
-<text x="5.08" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-21.844" y1="-1.524" x2="-21.336" y2="-1.016" layer="51"/>
 <rectangle x1="-24.384" y1="-1.524" x2="-23.876" y2="-1.016" layer="51"/>
 <rectangle x1="-19.304" y1="-1.524" x2="-18.796" y2="-1.016" layer="51"/>
@@ -307,6 +293,48 @@
 <rectangle x1="18.796" y1="1.016" x2="19.304" y2="1.524" layer="51"/>
 <rectangle x1="21.336" y1="1.016" x2="21.844" y2="1.524" layer="51"/>
 <rectangle x1="23.876" y1="1.016" x2="24.384" y2="1.524" layer="51"/>
+<pad name="3V3" x="-24.13" y="-1.27" drill="1.016" shape="square"/>
+<pad name="5V@2" x="-24.13" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO2_I2C_SDA" x="-21.59" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="5V@4" x="-21.59" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO3_I2C_SCL" x="-19.05" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GND@6" x="-19.05" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO4_GPCLK" x="-16.51" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO14_TX" x="-16.51" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GND@9" x="-13.97" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO15_RX" x="-13.97" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO17" x="-11.43" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO18" x="-11.43" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO27" x="-8.89" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GND@14" x="-8.89" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO22" x="-6.35" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO23" x="-6.35" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="3.3V@17" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO24" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO10_SPI_MOSI" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GND@20" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO9_SPI_MISO" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO25" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO11_SPI_SCLK" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO8_SPI_CE0" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GND@25" x="6.35" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO7_SPI_CE1" x="6.35" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="ID_SD" x="8.89" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="ID_SC" x="8.89" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO5" x="11.43" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GND@30" x="11.43" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO6" x="13.97" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO12" x="13.97" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO13" x="16.51" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GND@34" x="16.51" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO19" x="19.05" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO16" x="19.05" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO26" x="21.59" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO20" x="21.59" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="GND@39" x="24.13" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="GPIO21" x="24.13" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-24.638" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
+<text x="5.08" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-12.7" y="-4.191" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
 </packages>
@@ -502,9 +530,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="K1" library="FLYFISH" package="PIN_20X2" value="PIN20X2" x="32.5" y="52.5" smashed="yes">
-<attribute name="VALUE" x="45.2" y="48.309" size="1.27" layer="27" ratio="10"/>
-</element>
+<element name="K2" library="RasPi-BplusHAT" package="RASPI_HEADER" value="RASPI_HEADER" x="32.5" y="52.5"/>
 </elements>
 <signals>
 <signal name="S$28">
@@ -524,14 +550,6 @@ design rules under a new name.</description>
 <signal name="S$234">
 </signal>
 <signal name="GND">
-<contactref element="K1" pad="9"/>
-<contactref element="K1" pad="25"/>
-<contactref element="K1" pad="39"/>
-<contactref element="K1" pad="6"/>
-<contactref element="K1" pad="14"/>
-<contactref element="K1" pad="20"/>
-<contactref element="K1" pad="30"/>
-<contactref element="K1" pad="34"/>
 <polygon width="0.254" layer="16">
 <vertex x="0" y="3" curve="90"/>
 <vertex x="3" y="0"/>
@@ -568,6 +586,14 @@ design rules under a new name.</description>
 <vertex x="1" y="19.5" curve="90"/>
 <vertex x="0" y="18.5"/>
 </polygon>
+<contactref element="K2" pad="GND@9"/>
+<contactref element="K2" pad="GND@25"/>
+<contactref element="K2" pad="GND@39"/>
+<contactref element="K2" pad="GND@6"/>
+<contactref element="K2" pad="GND@14"/>
+<contactref element="K2" pad="GND@20"/>
+<contactref element="K2" pad="GND@30"/>
+<contactref element="K2" pad="GND@34"/>
 <wire x1="49.01" y1="53.77" x2="56.63" y2="51.23" width="0" layer="19" extent="1-1"/>
 <wire x1="43.93" y1="53.77" x2="49.01" y2="53.77" width="0" layer="19" extent="1-1"/>
 <wire x1="38.85" y1="51.23" x2="43.93" y2="53.77" width="0" layer="19" extent="1-1"/>
@@ -577,13 +603,13 @@ design rules under a new name.</description>
 <wire x1="13.45" y1="53.77" x2="18.53" y2="51.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
-<contactref element="K1" pad="1"/>
-<contactref element="K1" pad="17"/>
+<contactref element="K2" pad="3V3"/>
+<contactref element="K2" pad="3.3V@17"/>
 <wire x1="8.37" y1="51.23" x2="28.69" y2="51.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
-<contactref element="K1" pad="2"/>
-<contactref element="K1" pad="4"/>
+<contactref element="K2" pad="5V@2"/>
+<contactref element="K2" pad="5V@4"/>
 <wire x1="8.37" y1="53.77" x2="10.91" y2="53.77" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
