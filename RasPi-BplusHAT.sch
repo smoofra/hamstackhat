@@ -4726,6 +4726,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="190.5" x2="210.82" y2="190.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="12"/>
+<wire x1="58.42" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
+<label x="91.44" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DIGO6" class="0">
 <segment>
@@ -4733,6 +4738,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="190.5" y="187.96" size="1.778" layer="95"/>
 <wire x1="185.42" y1="187.96" x2="218.44" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="16"/>
+<wire x1="58.42" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
+<label x="91.44" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGO7" class="0">
@@ -4742,6 +4752,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="185.42" y1="185.42" x2="223.52" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="18"/>
+<wire x1="58.42" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
+<label x="91.44" y="154.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DIGO8" class="0">
 <segment>
@@ -4749,6 +4764,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="193.04" y="182.88" size="1.778" layer="95"/>
 <wire x1="185.42" y1="182.88" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="22"/>
+<wire x1="58.42" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
+<label x="91.44" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGIN9" class="0">
@@ -4814,6 +4834,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="170.18" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="32"/>
+<wire x1="58.42" y1="137.16" x2="91.44" y2="137.16" width="0.1524" layer="91"/>
+<label x="91.44" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DIGO19" class="0">
 <segment>
@@ -4821,6 +4846,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="152.4" y="187.96" size="1.778" layer="95"/>
 <wire x1="170.18" y1="187.96" x2="132.08" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="36"/>
+<wire x1="58.42" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
+<label x="91.44" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGO20" class="0">
@@ -4830,6 +4860,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="170.18" y1="185.42" x2="124.46" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="38"/>
+<wire x1="58.42" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
+<label x="91.44" y="129.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DIGO21" class="0">
 <segment>
@@ -4837,6 +4872,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="152.4" y="182.88" size="1.778" layer="95"/>
 <wire x1="170.18" y1="182.88" x2="116.84" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="GPIO21"/>
+<wire x1="58.42" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
+<label x="91.44" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGI22" class="0">
