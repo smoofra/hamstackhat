@@ -151,6 +151,7 @@
 <wire x1="45" y1="20" x2="46" y2="19" width="0" layer="46" curve="-90"/>
 <wire x1="46" y1="19" x2="46" y2="4" width="0" layer="46"/>
 <text x="42.25" y="44.25" size="1.778" layer="21">D'Anna Industries</text>
+<text x="44.5" y="32" size="1.778" layer="21">hamstack HAT</text>
 </plain>
 <libraries>
 <library name="RasPi-BplusHAT">
