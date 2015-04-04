@@ -8,10 +8,10 @@ repeater controller.
 
 It is compatible with raspberries with the 40 pin header, such as the B+.
 
-The hamstack cpu board has a db25 gpio connector with has 8 digital out pins and
-8 digital in pins.  These are connected to the 16 general purpose gpio pins on
-the pi.  The UART, SPI, and I2C pins are left unused.  The hamstack's analog
-inputs are unused.
+The hamstack cpu board has a db25 gpio connector with 8 digital out pins and 8
+digital in pins.  These are connected to the 16 general purpose gpio pins on the
+pi.  The UART, SPI, and I2C pins are left unused.  The hamstack's analog inputs
+are unused.
 
 The pin assignments are:
 
