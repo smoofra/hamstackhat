@@ -5008,6 +5008,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="182.88" y1="139.7" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<junction x="182.88" y="139.7"/>
 </segment>
 </net>
 <net name="ANALOG1" class="0">
@@ -5097,9 +5098,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <label x="190.5" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="B1"/>
-<label x="193.04" y="124.46" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="B8"/>
+<wire x1="182.88" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
+<label x="187.96" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGIN10" class="0">
@@ -5109,9 +5110,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <label x="190.5" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="121.92" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="B2"/>
-<label x="190.5" y="121.92" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="B6"/>
+<wire x1="182.88" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
+<label x="187.96" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGIN12" class="0">
@@ -5121,9 +5122,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <label x="190.5" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="116.84" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="B4"/>
-<label x="190.5" y="116.84" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="B2"/>
+<wire x1="182.88" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
+<label x="187.96" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGIN13" class="0">
@@ -5133,9 +5134,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <label x="190.5" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="B5"/>
-<label x="190.5" y="114.3" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="B1"/>
+<wire x1="182.88" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
+<label x="187.96" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ANALOG14" class="0">
@@ -5225,9 +5226,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <label x="152.4" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="B7"/>
-<label x="190.5" y="109.22" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="B5"/>
+<wire x1="182.88" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
+<label x="187.96" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGIN24" class="0">
@@ -5237,9 +5238,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <label x="152.4" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="106.68" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="B8"/>
-<label x="190.5" y="106.68" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="B3"/>
+<wire x1="182.88" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
+<label x="187.96" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGIN11" class="0">
@@ -5249,105 +5250,105 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <label x="190.5" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="B3"/>
-<label x="190.5" y="119.38" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="B4"/>
+<wire x1="182.88" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
+<label x="187.96" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIGIN22" class="0">
-<segment>
-<wire x1="182.88" y1="111.76" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="B6"/>
-<label x="190.5" y="111.76" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="22"/>
 <wire x1="170.18" y1="180.34" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
 <label x="152.4" y="180.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="B7"/>
+<wire x1="182.88" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
+<label x="187.96" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO27" class="0">
-<segment>
-<wire x1="152.4" y1="121.92" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A2"/>
-<label x="132.08" y="121.92" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="K2" gate="G$1" pin="13"/>
 <wire x1="43.18" y1="160.02" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="10.16" y="160.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A7"/>
+<wire x1="147.32" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
+<label x="139.7" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO22" class="0">
-<segment>
-<wire x1="152.4" y1="119.38" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A3"/>
-<label x="132.08" y="119.38" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="K2" gate="G$1" pin="15"/>
 <wire x1="43.18" y1="157.48" x2="17.78" y2="157.48" width="0.1524" layer="91"/>
 <label x="7.62" y="157.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A6"/>
+<wire x1="147.32" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
+<label x="139.7" y="111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO5" class="0">
-<segment>
-<wire x1="152.4" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A4"/>
-<label x="134.62" y="116.84" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="K2" gate="G$1" pin="29"/>
 <wire x1="43.18" y1="139.7" x2="17.78" y2="139.7" width="0.1524" layer="91"/>
 <label x="10.16" y="139.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A5"/>
+<wire x1="147.32" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+<label x="139.7" y="114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO6" class="0">
-<segment>
-<wire x1="152.4" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A5"/>
-<label x="134.62" y="114.3" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="K2" gate="G$1" pin="31"/>
 <wire x1="43.18" y1="137.16" x2="17.78" y2="137.16" width="0.1524" layer="91"/>
 <label x="12.7" y="137.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A4"/>
+<wire x1="147.32" y1="116.84" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
+<label x="139.7" y="116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO13" class="0">
-<segment>
-<wire x1="152.4" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A6"/>
-<label x="132.08" y="111.76" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="K2" gate="G$1" pin="33"/>
 <wire x1="43.18" y1="134.62" x2="17.78" y2="134.62" width="0.1524" layer="91"/>
 <label x="7.62" y="134.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A3"/>
+<wire x1="147.32" y1="119.38" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
+<label x="137.16" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO19" class="0">
-<segment>
-<wire x1="152.4" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A7"/>
-<label x="132.08" y="109.22" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="K2" gate="G$1" pin="35"/>
 <wire x1="43.18" y1="132.08" x2="17.78" y2="132.08" width="0.1524" layer="91"/>
 <label x="10.16" y="132.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A2"/>
+<wire x1="147.32" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
+<label x="137.16" y="121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO26" class="0">
-<segment>
-<wire x1="152.4" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A8"/>
-<label x="132.08" y="106.68" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="K2" gate="G$1" pin="37"/>
 <wire x1="43.18" y1="129.54" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
 <label x="10.16" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A1"/>
+<wire x1="147.32" y1="124.46" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
+<label x="139.7" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -5360,19 +5361,31 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </net>
 <net name="GPIO17" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="A1"/>
-<wire x1="152.4" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
-<label x="132.08" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="K2" gate="G$1" pin="11"/>
 <wire x1="43.18" y1="162.56" x2="17.78" y2="162.56" width="0.1524" layer="91"/>
 <label x="10.16" y="162.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A8"/>
+<wire x1="152.4" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<label x="139.7" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,185.42,200.66,ANALOG1,,,,,"/>
+<approved hash="106,1,185.42,198.12,ANALOG2,,,,,"/>
+<approved hash="106,1,185.42,195.58,ANALOG3,,,,,"/>
+<approved hash="106,1,185.42,193.04,ANALOG4,,,,,"/>
+<approved hash="106,1,170.18,200.66,ANALOG14,,,,,"/>
+<approved hash="106,1,170.18,198.12,ANALOG15,,,,,"/>
+<approved hash="106,1,170.18,195.58,ANALOG16,,,,,"/>
+<approved hash="106,1,170.18,193.04,ANALOG17,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="113,1,177.8,186.848,X1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
